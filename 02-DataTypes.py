@@ -16,3 +16,9 @@ print(type(c))
 # tuple
 d = (10,20,30)
 print(type(d))
+# set
+e = {10,20,30}
+print(type(e))
+# dict
+f = {'name':'Tom', 'age':18}
+print(type(f))
