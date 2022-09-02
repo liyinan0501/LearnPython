@@ -1,3 +1,6 @@
+"""
+TODO DataTypes
+"""
 num1 = 1
 num2 = 1.1
 # int
@@ -5,20 +8,20 @@ print(type(num1))
 # float
 print(type(num2))
 # str
-str = 'hello world'
+str = "hello world"
 print(type(str))
 # bool
 b = True
 print(type(b))
 # list
-c = [10,20,30]
+c = [10, 20, 30]
 print(type(c))
 # tuple
-d = (10,20,30)
+d = (10, 20, 30)
 print(type(d))
 # set
-e = {10,20,30}
+e = {10, 20, 30}
 print(type(e))
 # dict
-f = {'name':'Tom', 'age':18}
+f = {"name": "Tom", "age": 18}
 print(type(f))
