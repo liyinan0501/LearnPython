@@ -1,11 +1,7 @@
-# comments
 """
-Multiline comments
+TODO Comment
 """
-'''
-Multiline comments
-'''
-myName = 'Tom'
-print(myName)
-schoolName = 'AMK'
-print(schoolName)
+"""
+Multiline comment
+"""
+# Singleline comment
