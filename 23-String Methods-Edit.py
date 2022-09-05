@@ -28,3 +28,37 @@ newList = "...".join(myList)
 print(newList)  # aa...bb...cc
 newList1 = "".join(myList)
 print(newList1)  # aabbcc
+
+# .capitalize() -- 将字符串第一个字符转成大写。
+print(str.capitalize())  # Hello world and itcast and itheima and python
+
+# .title() -- 将字符串每个单词首字母转成大写。
+print(str.title())  # Hello World And Itcast And Itheima And Python
+
+str1 = "   hello world and itcast and itheima and Python   "
+# .lower() -- 将字符串所有字符从大写转成小写。
+print(str1.lower())  #    hello world and itcast and itheima and python
+
+# .upper() -- 将字符串所有字符从小写转成大写。
+print(str1.upper())  #    HELLO WORLD AND ITCAST AND ITHEIMA AND PYTHON
+
+# .lstrip() -- 删除字符串最左侧空白字符。
+print(str1.lstrip())  # hello world and itcast and itheima and Python
+
+# .rstrip() -- 删除字符串最右侧空白字符。
+print(str1.rstrip())  #    hello world and itcast and itheima and Python
+
+# .strip() -- 删除字符串两侧侧空白字符。
+print(str1.strip())  # hello world and itcast and itheima and Python
+
+str2 = "hello"
+# .ljust(长度, 填充字符)
+str2.ljust(10)  # 'hello     '
+str2.ljust(10, ".")  # 'hello.....'
+
+# .rjust(长度, 填充字符)
+str2.rjust(10)  # '     hello'
+str2.rjust(10, ".")  # '.....hello'
+
+# .center (长度, 填充字符)
+str2.center(11)  # '   hello   '
