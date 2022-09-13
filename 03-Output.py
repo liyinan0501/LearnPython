@@ -44,9 +44,12 @@ print("Something5", end="\t")
 print("Something6")
 print("Something7", end="...")
 print("Something8")
+print("Something9", end="")  # 不换行
+print("Something10")
 # Something
 # Something2
 # Something3
 # Something4
 # Something5	Something6
 # Something7...Something8
+# Something9Something10
