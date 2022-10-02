@@ -8,10 +8,10 @@ class Washer:
 
     def print_info(self):
         print(f"Washer width: {self.width}")
-        print(f"Washer heigth: {self.height}")
+        print(f"Washer height: {self.height}")
 
 
 haier = Washer()
 haier.print_info()
 # Washer width: 500
-# Washer heigth: 800
+# Washer height: 800
