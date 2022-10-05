@@ -1,3 +1,5 @@
+#
+# Todo __dict__
 class A(object):
     a = 0
 
