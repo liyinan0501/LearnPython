@@ -56,6 +56,7 @@ try:
     f = open("test.txt", "r")
 except Exception as result:
     f = open("test.txt", "w")
+# 无异常就走 else
 else:
     print("No error")
 finally:
